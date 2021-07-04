@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.scaling{
+    margin-bottom: 20px;
+}
+
 .logo{
     height: 150px;
 }
@@ -19,7 +23,7 @@
 }
 
 .space{
-    width: 20px;
+    width: 10px;
 }
 
 .plam{
@@ -60,8 +64,8 @@ a{
 //####################################################
 // Blinking cursor styling
 .blink {
-    animation: blink-animation 1.5s steps(10, start) infinite;
-    -webkit-animation: blink-animation 1.5s steps(10, start) infinite;
+    animation: blink-animation 1.5s steps(3, start) infinite;
+    -webkit-animation: blink-animation 1.5s steps(3, start) infinite;
   }
   @keyframes blink-animation {
     to {
