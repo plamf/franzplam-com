@@ -17,7 +17,7 @@
 
 .franz {
     font-size: 5vh;
-    font-family: "Lato";
+    font-family: "Lato", monospace;
     color: #c0c0c0;
     font-weight: 100;
     white-space: nowrap;
@@ -29,14 +29,14 @@
 
 .plam {
     font-size: 5vh;
-    font-family: "Lato";
+    font-family: "Lato", monospace;
     font-weight: 400;
     white-space: nowrap;
 }
 
 .console {
     padding-left: 1rem;
-    font-family: "Inconsolata";
+    font-family: "Inconsolata", monospace;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
 
 .console-reverse {
     padding-left: 1rem;
-    font-family: "Inconsolata";
+    font-family: "Inconsolata", monospace;
     width: auto;
     display: flex;
     flex-direction: column-reverse;
