@@ -1,2 +1,2 @@
-Copy-Item "./workingdir/unminified-index.html" "./index.html"
-html-minifier-terser --collapse-whitespace --input-dir "./" --output-dir "./" --file-ext "html" --use-short-doctype --minify-css true --minify-js true --process-scripts true --remove-comments --remove-style-link-type-attributes --remove-tag-whitespace --remove-script-type-attributes
+Copy-Item "./unminified-index.html" "./deployed-site/index.html"
+html-minifier-terser --collapse-whitespace --input-dir "./deployed-site" --output-dir "./deployed-site" --file-ext "html" --use-short-doctype --minify-css true --minify-js true --process-scripts true --remove-comments --remove-style-link-type-attributes --remove-tag-whitespace --remove-script-type-attributes
